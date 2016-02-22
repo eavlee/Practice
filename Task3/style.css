@@ -1,0 +1,189 @@
+*{outline:none;font-family:"微软雅黑";color:#fff;}
+body,header,div,ul,ol,dl,li,h1,h2,h3,h4,h5,h6,dt,dd,img,a,span,p,table,td,i,input,button,textarea,form,input,button{padding:0;margin:0;border:none;}
+html{
+	height:100%;
+	font-size: 125%;
+}
+body{
+	height:100%;
+	overflow: hidden;
+}
+.viewport{
+	position:relative;
+	margin:0 auto;
+	padding-top: 4.5rem;
+	width:100%;
+	height:100%;
+	max-width: 640px;
+	max-height: 1136px;
+	background-color: #68cdd5;
+}
+header{	
+	position:absolute;
+	top:0;
+	width:100%;
+	height:4.5rem;
+	background-color: #22292c;
+}
+h1{
+	height:4.5rem;
+	font-size: 1.7rem;
+	line-height: 4.5rem;
+	text-align: center;
+	font-weight: normal;
+}
+.back{
+	position: absolute;
+	top:50%;
+	left:2.8%;
+	height:1.8rem;
+	margin-top: -0.9rem;
+	padding-left: 1.7rem;
+	font-size: 1.3rem;
+	line-height: 1.8rem;
+	background: url(./images/arrow.png) 0 0 no-repeat;
+}
+.menu{
+	position:absolute;
+	top:0;
+	right: 1.5%;	
+	width:4rem;
+	height:100%;
+	background: url(./images/menu.png) center center no-repeat;
+}
+.main{
+	position:relative;
+	height:93%;
+}
+.bank-2{
+	position:absolute;
+	top:2.5%;
+	left:5.5%;
+	padding-bottom: 8.8%;
+	width:8.6%;
+	background: url(./images/arrow_2.png) 0 0 no-repeat;
+	background-size: 100%;
+}
+.logo{
+	display: inline-block;
+	padding-top: 35%;
+	width:100%;
+	background: url(./images/logo.png) center bottom no-repeat;
+}
+.introduction{
+	margin:15% auto 15%;
+	width:70%;
+}
+.introduction p{
+	font-size: 1.45rem;
+	line-height: 2.8rem;
+}
+.people{
+	position:absolute;
+	left:15%;
+	width:26.26%;
+	padding-top:13.13%;
+	height:1.2rem;
+	text-align: center;
+	background: url(./images/people.png) center top no-repeat;
+	background-size: 50%;
+}
+.ptteng{
+	position:absolute;
+	right:15%;
+	width:26.26%;
+	padding-top:13.13%;
+	height:1.2rem;
+	text-align: center;
+	background: url(./images/ptteng.png) center top no-repeat;
+	background-size: 50%;
+}
+.main span{
+	display:inline-block;
+	padding-top: 10%;
+	font-size: 1.2rem;
+	line-height: 1.2rem;
+}
+
+@media screen and (min-width: 640px){
+	.introduction{
+		margin:10% auto 10%;
+	}
+}
+@media screen and (max-width: 639px) and (min-width: 480px){
+	.viewport{
+		padding-top: 3.38rem;
+	}
+	header{
+		height:3.375rem;
+	}
+	h1{
+		height:3.375rem;
+		font-size: 1.28rem;
+		line-height: 3.375rem;
+	}
+	.back{
+		height:1.35rem;
+		margin-top: -.675rem;
+		padding-left: 1.28rem;
+		font-size: .98rem;
+		line-height: 1.35rem;
+		background-size:auto 1.35rem;
+	}
+	.menu{
+		width:3rem;
+		background-size:auto .375rem;
+	}
+	.logo{
+		background-size:auto 3.38rem;
+	}
+	.introduction p{
+		font-size: 1.11rem;
+		line-height: 2.22rem;
+	}
+	.main span{
+		font-size: 0.6rem;
+		line-height: 0.6rem;
+	}
+}
+@media screen and (max-width: 479px){
+	.viewport{
+		padding-top: 2.25rem;
+	}
+	header{
+		height:2.25rem;
+	}
+	h1{
+		height:2.25rem;
+		font-size: .85rem;
+		line-height: 2.25rem;
+	}
+	.back{
+		height:.9rem;
+		margin-top: -.45rem;
+		padding-left: .85rem;
+		font-size: .65rem;
+		line-height: .9rem;
+		background-size:auto .9rem;
+	}
+	.menu{
+		width:2rem;
+		background-size:auto .25rem;
+	}
+	.logo{
+		background-size:auto 2.25rem;
+	}
+	.introduction p{
+		font-size: 0.74rem;
+		line-height: 1.44rem;
+	}
+	.main span{
+		font-size: 0.6rem;
+		line-height: 0.6rem;
+	}
+}
+@media screen only (max-width: 320px){
+	.introduction{
+		margin:10% auto 10%;
+	}
+}
