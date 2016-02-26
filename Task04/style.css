@@ -19,6 +19,7 @@ header{
 	width:100%;
 	height:2.25rem;
 	background-color: #5fc0cd;
+	z-index: 1000;
 }
 header span{
 	position:absolute;
